@@ -1,0 +1,70 @@
+.top-section-with-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.25em;
+  }
+  
+  .how-it-works-top-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 3.75em 0px 3.75em;
+    text-align: center;
+    gap: 2.5em;
+  }
+  
+  .each-works {
+    width: 350px;
+  }
+  
+  .icon-each {
+    color: #14A800;
+    background-color: #14A8000D;
+    width: 5.625rem;
+    height: 5.625rem;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    align-self: center;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+  }
+  
+  .icon-each .h1 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+.bottom-works-section {
+    background-image: url("./assets/Rectangle 38.png");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .man1 {
+    position: absolute;
+    right: 3.125rem;
+    bottom: 0;
+  }
+  
+  .man2 {
+    position: absolute;
+    right: 11.25rem;
+    bottom: 0;
+  }
+  
+  .bottom-words {
+    width: 20rem;
+    margin-left: 12em;
+  }
+  
+  .green-money,
+  .check {
+    color: #14A800;
+  }

@@ -1,0 +1,67 @@
+.total-bvn-verification,
+.total-bank-account{
+    width: 550px;
+}
+.bvn-verification-header,
+.bank-acc-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+    position: relative;
+}
+.close-bvn-modal-btn,
+.close-bank-modal-btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.lower-bvn-section,
+.lower-bank-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+.input-bvn-section,
+.input-bank-number-section,
+.select-bank-section{
+    width: 310px;
+}
+.input-bank-number-section{
+    margin-top: 20px;
+}
+.input-bvn,
+.select-bank-input,
+.accountNumber-input{
+    width: 310px;
+    padding: 10px;
+    border: 1px solid #90909033;
+    background: #FAFAFA;
+    border-radius: 3px;
+}
+.select-bank-input{
+    margin: 20px 0px;
+}
+
+.bvn-warning-section{
+    color: #14A000;
+    display: flex;
+    align-items: center;
+    width: 310px;
+}
+.bvn-warning-section{
+    font-size: 10px;
+}
+.validate-bvn-btn,
+.save-details-btn{
+  display: block;
+  margin: 30px auto;
+  width: 310px;
+  padding: 10px;
+  border: none;
+  background-color: #14A000;
+  color: #FFFFFF;
+}

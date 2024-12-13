@@ -2,6 +2,8 @@ import  { useCallback, useRef, useState } from "react";
 import Webcam from "react-webcam";
 import { MdOutlineCameraAlt } from "react-icons/md";
 
+import "/src/styles/verification.css"
+
 export default function Verification() {
   const [selectedID, setSelectedID] = useState('');
   const [showProfileCamera, setShowProfileCamera] = useState(false);

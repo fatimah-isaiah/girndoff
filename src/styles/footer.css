@@ -1,0 +1,10 @@
+.total-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+    border-top: 1px solid #E5E5E5
+  }
+  
+  .connect-icon-span {
+    color: #14A800;
+  }

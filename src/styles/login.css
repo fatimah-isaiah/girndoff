@@ -1,0 +1,80 @@
+.total-login-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-side-login {
+    background-image: url("src/assets/Rectangle 1116.png");
+    width: 50vw;
+    background-repeat: none;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .right-side-login {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .get-job-div {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(transparent, black);
+    width: 50vw;
+    height: 20vh;
+  }
+  
+  .get-job {
+    width: 400px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .login-logo-div {
+    margin: 50px 80px 0px auto;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px 100px;
+  
+  }
+  
+  .login-form input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+  }
+  
+  .login-form label {
+    margin-top: 20px;
+  }
+  
+  .submit-login-btn {
+    padding: 10px;
+    border: none;
+    background-color: #14A800;
+    border-radius: 6px;
+    color: white;
+    width: 400px;
+  }
+  
+  .forget-link {
+    color: #14A800;
+    text-decoration: none;
+  }
+  .have-account {
+    margin-top: 80px;
+  }
+  
+  .login-signup-link {
+    color: #14A800;
+    text-decoration: none;
+  }

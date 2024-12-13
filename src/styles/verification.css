@@ -1,0 +1,107 @@
+.profile-upload-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0px 0px 3px 1px #D8D8D8;
+    background-color: white;
+  }
+  
+  .upload-section {
+    margin-bottom: 30px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .camera-btn,
+  .upload-btn {
+    flex: 1;
+    padding: 10px 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .camera-btn {
+    background-color: #e8ffe8;
+    color: #2a9d2a;
+  }
+  
+  .upload-btn {
+    background-color: #f4f4f4;
+    color: #666;
+  }
+  
+  .id-selection {
+    margin-bottom: 30px;
+  }
+  
+  .id-type-input {
+    margin-bottom: 10px;
+  }
+  
+  .id-type-input input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .id-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .id-btn {
+    padding: 10px 15px;
+    border: 1px solid #2a9d2a;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
+    color: #2a9d2a;
+    transition: background-color 0.3s ease;
+  }
+  
+  .id-btn.active {
+    background-color: #2a9d2a;
+    color: white;
+  }
+  
+  .continue-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .continue-btn {
+    background-color: #2a9d2a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .continue-btn:hover {
+    background-color: #248924;
+  }
+  .captured-image {
+    margin-top: 10px;
+    width: 500px;
+  }
+  

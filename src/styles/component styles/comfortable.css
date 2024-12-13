@@ -1,0 +1,104 @@
+.total-comfortable-section {
+    background: #14A8000D;
+    margin-top: 0px;
+    height: 90vh;
+    position: relative;
+    display: flex;
+  }
+  
+  .ellipse-div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+  
+  .comfortable-left-section {
+    margin: auto;
+  }
+  
+  .comfortable-left-section h1 {
+    width: 700px;
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 45.99px;
+    letter-spacing: -0.2888889014720917px;
+    text-align: left;
+  }
+  
+  .minute {
+    width: 450px;
+    font-weight: 400px;
+    line-height: 24.2px;
+    font-size: 20px;
+    margin: 30px 0px;
+  }
+  
+  .minute span {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    letter-spacing: -0.2888889014720917px;
+    text-align: left;
+  }
+  
+  .download {
+    width: 450px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36.31px;
+    letter-spacing: -0.2888889014720917px;
+    text-align: left;
+  
+  }
+  
+  .apple-store-btn,
+  .google-play-btn,
+  .google-play-btn-bottom,
+  .apple-store-btn-bottom {
+    border: 0.4px solid #14A80052;
+    padding: 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-right: 15px;
+  }
+  
+  .google-play-btn-bottom,
+  .apple-store-btn-bottom {
+    border: none;
+    background-color: black;
+    color: white;
+  }
+  
+  .download-icon {
+    font-size: 50px;
+  }
+  
+  .arrangement-div,
+  .yup {
+    display: flex;
+    align-items: center;
+  }
+  
+  .get-it {
+    margin-bottom: 0px;
+  }
+  
+  .button-words {
+    margin-top: 0;
+  }
+  
+  .company-list,
+  .discover-list {
+    list-style-type: none;
+  }
+  
+  .bottom-comfort {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  

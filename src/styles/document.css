@@ -1,0 +1,60 @@
+.total-document{
+    margin: 30px;
+    width: 70vw;
+}
+.total-header{
+    border-bottom: 0.5px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+.total-header h2{
+    margin-bottom: 0px;
+}
+.total-header p{
+    margin-top: 0px;
+}
+.bottom-document{
+    background-color: #FFFFFF;
+    padding: 30px;
+}
+.add-certificate-top-section{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.documentName,
+.IssuingOrganization{
+    display: block;
+    background: #E5E5E526;
+    border: 1px solid #D8D8D8;
+    padding: 15px;
+    border-radius: 6px;
+    width: 1000px;
+}
+.two-selection-section{
+    display: flex;
+    gap: 20px;
+}
+.issuedDate,
+.toEnd,
+.documentDescription{
+    display: block;
+    width: 490px;
+    padding: 15px;
+    background: #E5E5E526;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+}
+.documentDescription{
+    width: 1000px;
+    height: 150px;
+    padding: 20px;
+    resize: none;
+}
+.save-document-btn{
+    display: block;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: #14A000;
+    width: 400px;
+    border: none;
+}

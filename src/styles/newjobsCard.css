@@ -1,0 +1,57 @@
+.total-each-newjob{
+    width: 370px;
+    border: 1px solid #14A8000D;
+    box-shadow: 4px 4px 0px 0px #00000008;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.newjob-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.requestdate,
+.budgetRate,
+.jobType,
+.posted,
+.location,
+.bid-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bid-input{
+    border: 1px solid #D3D6D9;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 2px;
+}
+.submitBid-btn{
+    background: #14A800;
+    padding: 8px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
+.requestJob-btn,
+.history-viewJob-btn{
+    width: 350px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: #E5E5E5;
+    display: block;
+    margin-bottom: 10px;
+    border: none;
+
+}
+.viewJob-btn{
+    width: 350px;
+    padding: 10px 30px;
+    border-radius: 3px;
+    background: #14A800;
+    border: none;
+    color: #FFFFFF;
+
+}

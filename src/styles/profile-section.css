@@ -1,0 +1,103 @@
+.scroll-container {
+    display: flex;
+    flex-direction: row;
+    height: auto !important;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    scrollbar-width: none;
+  }
+  
+  .featured-h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .profile-card {
+    flex: 0 0 auto;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: white;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  
+  .services-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .services-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .relative {
+    position: relative;
+    background-color: #14A8000D;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .left-scroll-btn,
+  .right-scroll-btn {
+    padding: 10px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    box-shadow: 0px 0px 3px 5px whitesmoke;
+    background-color: white;
+  
+  }
+  
+  .right-scroll-btn {
+    position: absolute;
+    right: 5em;
+    bottom: 18em;
+  }
+  
+  .left-scroll-btn {
+    position: absolute;
+    left: 5em;
+    bottom: 18em;
+  }
+  
+  .star {
+    color: gold;
+  }
+  
+  .star-div {
+    background-color: #14A800;
+    border-radius: 0px 10px 10px 0px;
+    width: 40px;
+  }
+  
+  .white-star {
+    color: white;
+  }
+  
+  .scroll-arrow {
+    color: #14A800;
+  }

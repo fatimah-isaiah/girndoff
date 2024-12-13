@@ -1,0 +1,60 @@
+.total-service-support{
+    margin: 30px;
+    width: 70vw;
+}
+.top-service-support{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.bottom-service-support{
+    background-color: white;
+    margin-top: 20px;
+}
+.quick-help-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.input-customer-questions-section{
+    background: #F9FAFB;
+    width: 30vw;
+    padding: 7px 10px;
+    color: #979797;
+    border-radius: 6px;
+}
+.input-customer-questions{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.customer-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F9FAFB;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+.customer-answer{
+    margin: 20px;
+    padding: 20px; 
+}
+.helpful-tips-btn{
+    color: #14A000;
+    background-color: transparent;
+    border: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: -0.2888889014720917px;
+cursor: pointer;
+margin: 20px 0px;
+}
+.question-answer-section{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.admin-info{
+    margin: 30px;
+}

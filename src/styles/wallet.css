@@ -1,0 +1,137 @@
+.total-wallet{
+    margin: 30px;
+    width: 1060px;
+}
+.top-wallet{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.bottom-wallet{
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding-top: 3px;
+}
+.wallet-balance-section{
+    background-image: url("/src/assets/Rectangle 261.png");
+    margin: 20px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.money-available{
+    font-family: Inter;
+font-size: 42px;
+font-weight: 600;
+line-height: 10.83px;
+}
+.deposit-withdraw-section{
+    background: #F9FAFB;
+    height: 80px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.deposite-wallet-btn,
+.withdraw-wallet-btn{
+    width: 350px;
+    padding: 10px 20px;
+    background: #14A8000D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 3px;
+}
+.deposit-wallet-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.each-wallet-service-icon{
+    background: #14A8000D;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border-radius: 50%;
+    color: #14A000;
+    font-size: 24px;
+}
+
+.bill-icons{
+    background-color: #14A000;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.each-wallet-service{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.each-wallet-service-title{
+    font-size: 12px;
+    width: 100px;
+    text-align: center;
+}
+.scrollable-wallet-section{
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    box-shadow: 0px 0px 4px 2px #0000000F;
+    margin: 0px 20px;
+}
+.quick-action-container{
+ position: relative;
+}
+.scroll-right-wallet-btn,
+.scroll-left-wallet-btn{
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   border: none;
+   background-color: #FFFFFF;
+   box-shadow: 0px 0px 10px 0px #00000026;
+}
+.scroll-left-wallet-btn{
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.scroll-right-wallet-btn{
+    position: absolute;
+    right: 0;
+    top: 50px;
+}
+.wallet-history{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.each-wallet-history{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    border-bottom: 1px solid #E5E5E5;
+    width: 100%;
+    text-align: center;
+}
+.each-wallet-history:hover{
+    border-bottom: 2px solid #14A000;
+}
+.each-wallet-history.active{
+    border-bottom: 2px solid #14A000;
+    text-decoration: none;
+    color: black;
+}

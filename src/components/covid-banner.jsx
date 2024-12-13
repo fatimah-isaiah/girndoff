@@ -1,4 +1,5 @@
 import { useRef,useEffect } from "react"
+import "/src/styles/covid-banner.css"
 
 export default function Covid(){
  const ExitBtnRef = useRef()

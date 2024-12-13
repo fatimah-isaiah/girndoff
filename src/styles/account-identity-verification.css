@@ -1,0 +1,61 @@
+.total-account-verification{
+    background-color: #FFFFFF;
+    padding: 20px;
+    position: relative;
+}
+.verification-header{
+    width: 940px;
+    line-height: 2;
+}
+.verification-header p{
+    font-size: 18px;
+}
+.verification-button-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.verification-button{
+    width: 450px;
+    padding:  15px;
+    background: #E5E5E526;
+    border-radius: 3px;
+    border: none;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: -0.2888889014720917px;
+text-align: left; 
+text-underline-position: from-font; 
+text-decoration-skip-ink: none; 
+display: flex;
+align-items: center;
+}
+.save-verification-btn{
+    display: block;
+    margin: 50px auto;
+    width: 470px;
+    padding: 20px;
+    color: white;
+    background-color: #14A000;
+    border: none;
+    border-radius: 6px;
+}
+.id-icon{
+    background: #14A8000D;
+    color: #14A000;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 24px;
+    margin-right: 5px;
+}
+.verification-modal{
+    position: absolute;
+    top:0;
+   
+}
+.each-modal{
+    background-color: white;
+    box-shadow: 0px 0px 3px 4px #00000014;
+}

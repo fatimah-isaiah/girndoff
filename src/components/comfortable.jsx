@@ -1,5 +1,6 @@
 import { SiGoogleplay } from "react-icons/si";
 import { IoLogoApple } from "react-icons/io5";
+import "/src/styles/component styles/comfortable.css"
 
 export default function Comfortable(){
     return(

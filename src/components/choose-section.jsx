@@ -1,6 +1,7 @@
 import { LuClock5 } from "react-icons/lu";
 import { FaCheckDouble } from "react-icons/fa6";
 import { TfiAlarmClock } from "react-icons/tfi";
+import "/src/styles/component styles/choose-section.css"
 
 export default function Choose(){
     return(

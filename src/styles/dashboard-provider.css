@@ -1,0 +1,21 @@
+
+.total-dashboard-section{
+    margin: 30px;
+    
+}
+
+.dashboard-nav-bar{
+    display: flex;
+    list-style: none;
+    margin:20px 0px;
+    padding-left: 0px;
+    border-bottom: 0.5px solid #00000026;
+}
+.each-item{
+
+    margin-right: 40px;
+}
+.each-item:hover{
+   border-bottom: 1px solid #14A000;
+   color: #14A000;
+}

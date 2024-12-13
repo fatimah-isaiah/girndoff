@@ -1,0 +1,36 @@
+.total-confirm-details{
+    margin: 20px 14em;
+    background-color: white;
+    box-shadow: 4px 4px 6px 0px #0000000D;
+    padding: 10px 10em;
+  
+  }
+  .top-confirm-details{
+    text-align: center;
+  }
+  .confirm-details-form{
+    display: flex;
+    flex-direction: column;
+    margin:  auto;
+    padding: 30px;
+  }
+  .confirm-details-form label{
+    margin-top: 20px;
+  }
+  #userFirstName,
+  #userLastName,
+  #userEmail,
+  #userPassword,
+  #userPhoneNumber{
+    padding: 20px;
+    border-radius: 6px;
+    border: 1px solid #00000099
+  }
+  .submit-user-form-btn{
+    padding: 20px;
+    border-radius: 6px;
+    border: none;
+    background-color: #14A800;
+    color: white;
+    margin: 0px 60px;
+  }

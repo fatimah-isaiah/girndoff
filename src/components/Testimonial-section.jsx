@@ -1,7 +1,8 @@
-import testimonialData from "/src/testimonial.js"
+import testimonialData from "/src/data/testimonial.js"
 import {useRef, useState, useEffect} from "react"
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+import "/src/styles/component styles/testimonial-section.css"
 
 export default function Testimonial(){
 

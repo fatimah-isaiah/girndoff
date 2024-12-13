@@ -1,0 +1,115 @@
+.service-profile-total {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 60px 30px 60px;
+    margin: 30px 160px;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0px 0px 3px 1px #D8D8D8;
+  }
+  
+  .selected-top {
+    border: 1px solid #D8D8D8;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .each-selected-service {
+    padding: 5px;
+    background-color: #D8D8D8;
+  
+  }
+  
+  .remove-service-btn {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .suggested-services {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .form-grid {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .lowerForm {
+    width: 900px;
+  }
+  
+  .textArea {
+    display: block;
+    width: 800px;
+    height: 200px;
+    border-radius: 6px;
+    text-align: start;
+    font-size: 18px;
+    border: 1px solid #D8D8D8;
+    background-color: #E5E5E526;
+    resize: none;
+    padding: 10px;
+  }
+  
+  .radio-div {
+    margin-bottom: 20px;
+  }
+  
+  #completion {
+    display: block;
+    width: 800px;
+    padding: 15px;
+    border: 1px solid #D8D8D8;
+    background-color: #E5E5E526;
+    border-radius: 6px;
+    margin-bottom: 30px;
+  }
+  
+  .current-location-div {
+    display: block;
+  }
+  
+  .current-location-btn {
+    padding: 15px;
+    background-color: #14A800;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    width: 200px;
+  }
+  
+  .label-current-location {
+    margin-top: 20px;
+  }
+  
+  #insertLocation {
+    padding: 15px;
+    border-radius: 6px;
+    width: 590px;
+    margin-right: 10px;
+    border: 1px solid #D8D8D8;
+    background-color: #E5E5E526;
+  }
+  
+  .service-profile-continue {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #14A800;
+  }
+  
+  .selected-image {
+    margin-bottom: 30px;
+    display: block;
+  }
+  

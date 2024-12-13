@@ -1,6 +1,8 @@
 import { useState,useEffect,useRef } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 
+import "/src/styles/service-profile.css"
+
 export default function ServiceProfile() {
     const servicesArray = [
         "Beauty & Services",
@@ -33,7 +35,7 @@ export default function ServiceProfile() {
     insertLocation:"",
   })
 
-  const [selectedImage, setSelectedImage] =useState("")
+  const [selectedImage, setSelectedImage] = useState("")
   const [error, setError] = useState(null)
 
   function handleChange(event) {
@@ -88,7 +90,6 @@ export default function ServiceProfile() {
     }
    
   }
-  console.log(selectedImage, "idiijjdjo-image-mksamnn")
 
   const skills = ["Self Taught",
     "Trained by a professional",

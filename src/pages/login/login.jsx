@@ -1,10 +1,15 @@
 import {useState} from "react"
-import { Link } from "react-router-dom"
+import { Link,useNavigate} from "react-router-dom"
+
+import "/src/styles/login.css"
+import { UserData } from "../../data/user_data"
 
 export default function Login(){
+    const navigate =useNavigate()
 
     const [loginData, setLoginData] = useState({
         loginInput:"",
+        password:""
     })
 
     function handleLoginChange(event){
@@ -15,6 +20,12 @@ export default function Login(){
                 [name]:value
             }
         })
+    }
+    function submitLogin(e){
+        e.preventDefault()
+        localStorage.setItem("loggedin", true)
+        localStorage.setItem( "userData", JSON.stringify(UserData, null,2) )
+        navigate("/requestDetails", { replace: true })
     }
     return(
         <div className="total-login-page">
@@ -27,10 +38,11 @@ export default function Login(){
                 <div className="login-logo-div">
                     <img src="src/assets/logo 1.png" className="login-logo"/>
                 </div>
-                <form className="login-form">
+                <form onSubmit={submitLogin} className="login-form">
                     <h2>Login</h2>
                     <label htmlFor="loginInput">Email or Phone Number</label>
                     <input
+                    required
                     type="text"
                     id="loginInput"
                     name="loginInput"
@@ -39,6 +51,7 @@ export default function Login(){
 
                    <label htmlFor="password">Password</label>
                     <input
+                    required
                     type="text"
                     id="password"
                     name="password"
@@ -47,10 +60,11 @@ export default function Login(){
 
                     <p><Link to="#" className="forget-link">Forgot Password?</Link></p>
 
-                    <button className="submit-login-btn">Login</button>
+                    <button type="submit" className="submit-login-btn"
+                    >Login</button>
 
                 </form>
-                <h4 className="have-account">Don’t have an account? <Link to="signup" className="login-signup-link"> Sign Up </Link></h4>
+                <h4 className="have-account">Don’t have an account? <Link to="/signup" className="login-signup-link"> Sign Up </Link></h4>
             </div>
         </div>
     )

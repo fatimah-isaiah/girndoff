@@ -4,6 +4,7 @@ import { Outlet, useLocation } from "react-router-dom";
 import { IoPerson } from "react-icons/io5";
 import { BsWrenchAdjustable, BsClipboard2CheckFill, BsCashCoin } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
+import "/src/styles/provider-layout.css"
 
 // Stepper component for provider onboarding flow
 export default function ProviderLayout() {
@@ -44,7 +45,7 @@ export default function ProviderLayout() {
     // Function to get the current step based on the URL path
     const getCurrentStep = () => {
         const currentStep = steps.find(step => location.pathname.includes(step.path));
-        console.log(location.pathname, currentStep, "ninpifpjpojo")
+    
         return currentStep ? currentStep.step : 1;
     };
 

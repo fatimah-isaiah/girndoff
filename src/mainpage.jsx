@@ -1,6 +1,6 @@
 import './App.css'
 import Hero from "./components/hero.jsx"
-import data from "./data.js"
+import data from "/src/data/data.js"
 import Trend from "./components/trend-section.jsx"
 import { SlArrowDown } from "react-icons/sl";
 import Choose from "./components/choose-section.jsx"

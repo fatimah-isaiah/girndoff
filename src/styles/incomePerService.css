@@ -1,0 +1,19 @@
+.total-bottom-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.income-div{
+    background-image: url("/src/assets/Rectangle 59.png");
+    color: #FFFFFF;
+
+}
+.available-income{
+    padding: 0px 20px;
+}
+.income-select{
+    background: #F9FAFB;
+    width: 450px;
+    padding: 15px;
+
+}

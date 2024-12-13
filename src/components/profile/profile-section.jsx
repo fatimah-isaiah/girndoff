@@ -1,8 +1,10 @@
 import {useRef, useState,useEffect} from "react"
-import profileCardsData from "/src/profileCards.js"
+import profileCardsData from "/src/data/profileCards.js"
 import ProfileCard from "./profileCard"
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowLeft } from "react-icons/fa";
+
+import "/src/styles/profile-section.css"
 
 
 export default function ScrollableProfileCards() {
@@ -12,7 +14,6 @@ export default function ScrollableProfileCards() {
   
     const handleScroll = () => {
         if (scrollContainerRef.current) {
-            console.log(scrollContainerRef.current)
           const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
           setShowLeftArrow(scrollLeft > 0);
           setShowRightArrow(scrollLeft < scrollWidth - clientWidth - 1);
@@ -35,6 +36,7 @@ export default function ScrollableProfileCards() {
       }
     };
   
+
     return (
       <div className="relative">
         <h1 className="featured-h1">Featured Providers</h1>

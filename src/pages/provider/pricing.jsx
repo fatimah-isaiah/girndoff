@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "/src/styles/pricing.css"
 export default function Pricing(){
     const [selectedDays, setSelectedDays] = useState([]);
   const [pricingOption, setPricingOption] = useState('');

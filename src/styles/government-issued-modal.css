@@ -1,0 +1,37 @@
+.total-id-modal{
+    width: 550px;
+    padding: 20px;
+}
+.id-modal-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 10px;
+    position: relative;
+}
+.id-modal-header p{
+    margin-bottom: 0px;
+    text-align: center;
+}
+.close-i-modal-btn{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 0;
+   
+}
+.bottom-id-modal{
+   border: 1px dashed #1A1A1A;
+    background: #00000008;
+   margin: 20px;
+   align-content: center;
+   padding: 30px ;
+   text-align: center;
+}
+.show-modal-btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 34px;
+
+}

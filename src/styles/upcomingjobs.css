@@ -1,0 +1,32 @@
+.total-upcoming-jobs{
+    background-color: #FFFFFF;
+    margin-left: 30px;
+    padding: 20px;
+}
+.upcoming-jobs-header{
+    border-bottom: 0.5px solid #E5E5E5;
+    margin-bottom: 20px;
+}
+.line-chart-upcoming{
+    height: 600px;
+    box-shadow: 0px 4px 4px 4px #0000000D;
+    padding: 20px;
+}
+.doughnut-chart-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 20px;
+}
+.total-doughnut{
+    box-shadow: 0px 4px 4px 0px #0000000D;
+    padding: 20px;
+}
+.june-doughnut,
+.recent-jobs-doughnut,
+.july-doughnut{
+    width: 200px;
+    height: 200px;
+   
+
+}

@@ -1,0 +1,71 @@
+.total-service-description {
+    margin: 0px 200px 30px 200px;
+    padding: 0px 100px 50px 100px;
+    background-color: white;
+  }
+  
+  .description-header {
+    text-align: center;
+  }
+  
+  .right-radio {
+    display: block;
+  }
+  
+  #startingAddress,
+  #destinationAddress {
+    width: 650px;
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    background-color: #E5E5E526;
+  }
+  
+  .startingAddress-btn,
+  .destinationAddress-btn {
+    width: 250px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #14A800;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-left: 10px;
+  }
+  
+  #serviceCategory,
+  #shortDescription {
+    width: 900px;
+    padding: 10px 50px;
+    border: 1px solid #D8D8D8;
+    border-radius: 6px;
+    font-size: 15px;
+    background-color: #E5E5E526;
+  }
+  
+  #longDescription {
+    display: block;
+    width: 900px;
+    height: 100px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 1px solid #D8D8D8;
+    background-color: #E5E5E526;
+    resize: none;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+  
+  .serviceRequest-btn {
+    display: block;
+    margin: 0px auto 0px auto;
+    width: 250px;
+    background-color: #14A800;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+  }
+  

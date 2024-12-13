@@ -1,5 +1,6 @@
 import { FaArrowDown } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
+import "/src/styles/hero.css"
 
 export default function Hero(){
     return(

@@ -1,0 +1,89 @@
+.total-referrals{
+    margin: 30px;
+}
+.referral-header{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.top-referral-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin: 20px 10px 50px 10px;
+    gap: 60px;
+}
+.spread-header{
+    margin: 0px;
+}
+.someone-line{
+    font-size: 12px;
+    width: 300px;
+}
+.left-top-referral-section{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+   background-image: url("/src/assets/Rectangle 549.png");
+   box-shadow: 0px 4px 4px 2px #0000000D;
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.commission-div{
+    background: #14A8000D;
+    color:#14A000;
+    padding: 7px 15px;
+    font-size: 12px;
+    width: 200px;
+}
+.refferal-link{
+    background-color: #14A000;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    font-size: 12px;
+}
+.right-top-referral-section{
+    width: 500px;
+    background-image: url("/src/assets/Rectangle 549.png");
+    background-repeat: no-repeat;
+   box-shadow: 0px 4px 4px 2px #0000000D; 
+   background-size: cover;
+}
+.right-referral-header{
+    background: #14A8000D;
+    color:#14A000;
+    padding: 10px;
+    font-size: 20px;
+}
+.each-referral-detail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid #E5E5E5;
+    padding: 10px 20px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+ td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+.referrals-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+.previous-page-btn,
+.next-page-btn{
+    border: none;
+    background-color: transparent;
+}
+.currenpage-span{
+    background-color: #14A000;
+    padding: 0px 5px;
+    color: #FFFFFF;
+}
+  

@@ -1,0 +1,38 @@
+.total-account-location{
+  background-color: #FFFFFF;
+  padding: 20px;
+  min-height: 500px;
+}
+.location-header{
+    border-bottom: 0.5px solid #E5E5E5;
+}
+.input-button-line{
+    display: flex;
+    gap: 15px;
+}
+.total-input-location{
+    border: 1px solid #D8D8D8;
+    background: #E5E5E526;
+    color: #00000040;
+    padding: 15px;
+    width: 500px;
+    border-radius: 6px;
+}
+.input-location{
+    border: none;
+    outline: none;
+    color: #00000040;
+    background-color: transparent;
+}
+.current-acccount-location-btn{
+    width: 300px;
+    border: none;
+    border-radius: 6px;
+}
+.no-location-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}

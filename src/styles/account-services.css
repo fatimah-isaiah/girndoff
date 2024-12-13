@@ -1,0 +1,52 @@
+
+.each-item-description{
+    display: flex;
+}
+.icon-section{
+    color: #14A000;
+    background: #14A8000D;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.icon{
+    text-align: center;
+}
+.words-section{
+    width: 400px;
+}
+.top-grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 5px;
+    margin-top: 20px;
+}
+.total-top-section{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.update-service{
+    border-bottom: 0.5px solid #E5E5E5
+}
+.bottom-section-account-services{
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.chosenServices-div{
+    display: flex;
+    border: 1px solid #D8D8D8;
+    background: #E5E5E526;
+    padding: 5px;
+}
+.each-selected-account-service{
+    background: #DADADA;
+    margin-right: 10px;
+    padding: 10px;
+}
+.service-grid-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px;
+    gap: 20px;
+}

@@ -1,12 +1,12 @@
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import "/src/styles/footer.css"
 
 export default function Footer(){
 
 let currentDate = new Date();
 let year = currentDate.getFullYear();
-console.log(year);
 
     return(
         <div className="total-footer">

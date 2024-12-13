@@ -1,0 +1,52 @@
+.totalBillinginfo{
+  
+}
+.top-section-add-card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-bottom: 0.5px solid #E5E5E5;
+    padding: 0px 20px;
+}
+.button-div{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}
+.CardHolderName,
+.CardNumber,
+.ExpiryDate,
+.bankName{
+    display: block;
+    width: 350px;
+    border: 1px solid #D8D8D8;
+    padding: 15px;
+    background: #E5E5E526;
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delete-billinfo-mmodal-btn{
+    background-color: transparent;
+    border: none;
+}
+.bank-name-section,
+.expiry-date-section,
+.card-number-section,
+.cardholdername-section{
+    margin: 10px 0px;
+}
+.add-new-account-btn{
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    background-color: #14A000;
+    color: #FFFFFF;
+    border-radius: 6px;
+    border: none;
+    padding: 10px;
+}

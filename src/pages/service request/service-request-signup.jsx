@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import "/src/styles/service-request-signup.css"
 
 export default function ServiceRequest(){
     const [formData, setFormData] = useState(
@@ -26,10 +27,12 @@ export default function ServiceRequest(){
         )
     }
 
-    console.log(formData, "fatimah is the categry working")
+    
     const serviceRate = ["Engage Provider for Service Rate","Pay Per Hour","Fixed Price"]
 
-    const category = ["Furniture","plumbing","Grocery shopping","cleaning","movers"]
+    const category = ["","Furniture","Plumbing","Grocery","shopping","Cleaning","Movers","Tailoring","Baking","Catering",
+        "Capentering","Repair","Painting","Fumigation","Landscaping","Mechanics","Electricians","Pharmacy","supermarket"
+    ]
    return(
     <div className="total-service-description">
          <h1 className="description-header">Service Description</h1>

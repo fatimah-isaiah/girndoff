@@ -34,11 +34,12 @@ export default function RequestLayout(){
     ];
     
     function getCurrentStep(){
-       const currentStepObeject = steps.filter(each => location.pathname.includes(each.step))
-       return currentStepObeject? currentStepObeject.step: 1
+       const currentStepObeject = steps.find(each => location.pathname.includes(each.path))
+       return currentStepObeject ? currentStepObeject.step : 1;
     } 
 
     const currentStep = getCurrentStep()
+    console.log(currentStep,"this is the current steopppp")
     return (
         <div>
             <div className="total-nav">

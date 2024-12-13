@@ -1,0 +1,58 @@
+.header-section {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 2px 2px 4px #E5E5E5;
+    position: fixed;
+    width: 100vw;
+    background: #fff;
+    z-index: 100;
+    top: 0;
+  }
+  
+  .logo {
+    color: #14A800;
+    margin-right: auto;
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    border-right: 1px solid #E5E5E5;
+    margin-right: 20px;
+  }
+  
+  li {
+    padding: 8px;
+  }
+  
+  .provider-btn {
+    color: #14A800;
+    border: 2px solid #14A800;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 5px;
+    text-decoration: none;
+  }
+  
+  .link-to-home {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .signUp-btn {
+    color: white;
+    text-decoration: none;
+    border: 2px solid red;
+  }
+  
+  .signUp-btn,
+  .search-bar {
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #14A800;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }

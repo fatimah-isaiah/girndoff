@@ -1,11 +1,12 @@
 
 import { SlArrowDown } from "react-icons/sl";
-import { useState } from "react";
+import {  useState } from "react";
 import Menu from "./menu/Menu"
 import MenuButton from "./menu/MenuButton"
 import MenuDropDown from "./menu/MenuDropDown"
 import {Link} from "react-router-dom"
 import imageURL from "/src/assets/logo 1.png"
+import "/src/styles/header.css"
 
 
 
@@ -16,6 +17,8 @@ export default function Header(){
       console.log("button clicked")
       setOpenService(!openService)
   }
+
+
 
   const eachservice = serviceArray.map((each,index)=> (
   <MenuDropDown

@@ -2,6 +2,7 @@ import { IoLinkSharp } from "react-icons/io5";
 import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { Link } from "react-router-dom";
+import "/src/styles/component styles/works.css"
 
 export default function Works(){
     const workData = [{
