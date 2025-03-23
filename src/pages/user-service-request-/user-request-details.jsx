@@ -13,6 +13,7 @@ import { BsFillTelephoneFill } from "react-icons/bs";
 import { PiDotsThreeBold } from "react-icons/pi";
 import { FaRegSmileBeam } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
+import imageUrl from "/public/publicAssets/Ellipse 25.png"
 
 
 
@@ -105,7 +106,7 @@ export default function RequestDetails(){
                 <div className="bottom-user-details-section">
                 <div className="bottom-left-user-details-section">
                     <div className="provider-details">
-                        <img src="/src/assets/Ellipse 25.png" />
+                        <img src={imageUrl} />
                         <div>
                             <p><FaCheckCircle style={{color:"#14A800",marginRight:"10px"}} />80 completed tasks</p>
                             <p><FaHeart style={{color:"FFD703",marginRight:"10px"}}  />100% positive reviews<BsFillExclamationCircleFill style={{color:"#14A800",marginLeft:"5px" }}  /></p>

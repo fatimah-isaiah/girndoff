@@ -1,5 +1,5 @@
 import { ImBin2 } from "react-icons/im";
-import creditCard from "/src/assets/Group 1060.png"
+import creditCard from "/public/publicAssets/Group 1060.png"
 import { useState,useRef } from "react";
 import "/src/styles/billing-information.css"
 import { FiPlusCircle } from "react-icons/fi";

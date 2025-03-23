@@ -1,5 +1,5 @@
 .choose-section {
-    background-image: linear-gradient(0deg, #1A1A1A 0.72%, rgba(0, 0, 0, 0.05) 129.42%), url("/src/assets/Rectangle 50.png");
+    background-image: linear-gradient(0deg, #1A1A1A 0.72%, rgba(0, 0, 0, 0.05) 129.42%), url("/public/publicAssets/Rectangle 50.png");
     background-repeat: none;
     background-size: cover;
     color: #FFFFFF;

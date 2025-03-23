@@ -7,7 +7,7 @@ import { GoGitBranch } from "react-icons/go";
 import { LiaFileInvoiceDollarSolid } from "react-icons/lia";
 import { IoWallet } from "react-icons/io5";
 import { BiSolidLock } from "react-icons/bi";
-import  customerCare from "/src/assets/customer-care2 2.png" 
+import  customerCare from "/public/publicAssets/customer-care2 2.png" 
 import "/src/styles/provider-dashboard-layout.css"
 import { PiSignOutBold } from "react-icons/pi";
  

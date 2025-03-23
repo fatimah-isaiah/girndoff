@@ -2,7 +2,7 @@ export default [
     {
       id: 1,
       name: "Alabaster Stores",
-      image: "src/assets/profile images/Ellipse 5.png",
+      i:"/publicAssets/profileImages/Ellipse_5.png",
       positiveReviews: 100,
       completedTasks: 140,
       services: [
@@ -15,7 +15,7 @@ export default [
     {
       id: 2,
       name: "Alabaster Stores",
-      image: "src/assets/profile images/Ellipse 5 (1).png",
+      i:"/publicAssets/profileImages/Ellipse_5_(1).png",
       positiveReviews: 100,
       completedTasks: 140,
       services: [
@@ -28,7 +28,7 @@ export default [
     {
       id: 3,
       name: "Alabaster Stores",
-      image: "src/assets/profile images/Ellipse 5 (2).png",
+      i:"/publicAssets/profileImages/Ellipse_5_(2).png",
       positiveReviews: 100,
       completedTasks: 140,
       services: [
@@ -41,7 +41,7 @@ export default [
     {
       id: 4,
       name: "Alabaster Stores",
-      image: "src/assets/profile images/Ellipse 5 (3).png",
+      image: "/publicAssets/profileImages/Ellipse_5_(3).png",
       positiveReviews: 100,
       completedTasks: 140,
       services: [
@@ -55,7 +55,7 @@ export default [
     {
       id: 5,
       name: "Fresh Farms",
-      image: "src/assets/profile images/Ellipse 5.png",
+      image: "/publicAssets/profileImages/Ellipse_5.png",
       positiveReviews: 98,
       completedTasks: 112,
       services: [
@@ -68,7 +68,7 @@ export default [
     {
       id: 6,
       name: "Quick Mart",
-      image: "src/assets/profile images/Ellipse 5 (1).png",
+      image: "/publicAssets/profileImages/Ellipse_5_(1).png",
       positiveReviews: 99,
       completedTasks: 205,
       services: [
@@ -81,7 +81,7 @@ export default [
     {
       id: 7,
       name: "Gourmet Delights",
-      image: "src/assets/profile images/Ellipse 5.png",
+      image: "/publicAssets/profileImages/Ellipse_5.png",
       positiveReviews: 100,
       completedTasks: 87,
       services: [
@@ -94,7 +94,7 @@ export default [
     {
       id: 8,
       name: "Health Hub",
-      image: "./src/assets/profile images/Ellipse 5 (3).png",
+      image: "/publicAssets/profileImages/Ellipse_5_(3).png",
       positiveReviews: 97,
       completedTasks: 163,
       services: [
@@ -107,7 +107,7 @@ export default [
     {
       id: 9,
       name: "Bulk Buys",
-      image: "./src/assets/profile images/Ellipse 5.png",
+      image: "/publicAssets/profileImages/Ellipse_5.png",
       positiveReviews: 99,
       completedTasks: 178,
       services: [

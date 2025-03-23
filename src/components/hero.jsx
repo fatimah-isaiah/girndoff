@@ -1,8 +1,14 @@
 import { FaArrowDown } from "react-icons/fa";
 import { FaSearch } from "react-icons/fa";
 import "/src/styles/hero.css"
+import { LoginDetailsContext } from "./context/user-context";
+import { useContext } from "react";
+// import hero-image from "src\assets\grindoff-hero.jpeg"
+import heroImage from "/public/publicAssets/grindoff-hero.jpeg"
 
 export default function Hero(){
+
+    const {toggleHomePage} = useContext(LoginDetailsContext)
     return(
         <section>
         <div className="hero-section">
@@ -24,9 +30,10 @@ export default function Hero(){
                      <a className="popular-link" href="#">See More.</a>
                 </div>
            </div>
-           <img className="hero-image" src= "src\assets\grindoff-hero.jpeg"/>
+           <img className="hero-image" src={heroImage} />
         </div>
-        <button className="downward-arrow"><FaArrowDown /></button>
+        <button className="downward-arrow"
+        onClick={()=> toggleHomePage()}><FaArrowDown /></button>
         </section>
     )
 }

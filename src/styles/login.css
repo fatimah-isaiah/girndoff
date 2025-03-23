@@ -4,7 +4,7 @@
   }
   
   .left-side-login {
-    background-image: url("src/assets/Rectangle 1116.png");
+    background-image: url("/public/publicAssets/Rectangle 1116.png");
     width: 50vw;
     background-repeat: none;
     background-size: cover;

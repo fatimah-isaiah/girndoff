@@ -1,6 +1,6 @@
 import {useState} from "react"
 import { Link,useNavigate} from "react-router-dom"
-
+import loginLogo from "/public/publicAssets/logo 1.png"
 import "/src/styles/login.css"
 import { UserData } from "../../data/user_data"
 
@@ -36,7 +36,7 @@ export default function Login(){
             </div>
             <div className="right-side-login">
                 <div className="login-logo-div">
-                    <img src="src/assets/logo 1.png" className="login-logo"/>
+                    <img src={loginLogo} className="login-logo"/>
                 </div>
                 <form onSubmit={submitLogin} className="login-form">
                     <h2>Login</h2>

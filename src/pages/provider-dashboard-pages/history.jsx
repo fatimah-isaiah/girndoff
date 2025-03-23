@@ -6,7 +6,7 @@ import "/src/styles/newjobs.css";
 import "/src/styles/history.css"
 import { useSearchParams } from "react-router-dom";
 import { useState } from "react";
-import HistoryModal from "./historyModal"; // Make sure this path is correct
+import HistoryModal from "./historyModal"; 
 
 export default function History() {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -78,7 +78,7 @@ export default function History() {
                 <HistoryModal
                     showModal={showModal}
                     modalData={modalData}
-                    onClose={handleCloseModal} // Pass close handler
+                    onClose={handleCloseModal} 
                 />
                 </div>
             )}

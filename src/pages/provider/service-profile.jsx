@@ -129,14 +129,16 @@ export default function ServiceProfile() {
         {servicesArray.map((item, index) => (
           <div key={index} >
             <form >
-              <input
-                type="checkbox"
-                id={item}
-                name={item}
-                onChange={handleChange}
-                checked={formData[item]}
-              />
-              <label htmlFor={item}>{item}</label>
+               <div>
+                  <input
+                    type="checkbox"
+                    id={item}
+                    name={item}
+                    onChange={handleChange}
+                    checked={formData[item]}
+                  />
+                  <label htmlFor={item}>{item}</label>
+              </div>
             </form>
           </div>
         ))}

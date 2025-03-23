@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "/src/styles/signup-provider.css"
 
 export default function SignUp(){
     const [formData,setFormData] = useState("")
@@ -13,50 +14,66 @@ export default function SignUp(){
     return(
         <div>
             <form className="signup-form">
-                <label htmlFor="firstName">First Name</label>
-                    <input 
-                    id="firstName" 
-                    type="text"
-                    name ="firstName" 
-                    onChange={handleChange}
-                    value={formData.firstName}/>
+                <div className="firstName-provider-div">
+                    <label htmlFor="firstName-provider">First Name</label>
+                        <input 
+                        id="firstName-provider" 
+                        type="text"
+                        name ="firstName" 
+                        onChange={handleChange}
+                        value={formData.firstName}/>
+                </div>
                     
-                <label htmlFor="lastName">Last Name</label>
-                    <input 
-                    id="lastName" 
-                    type="text"
-                    name ="lastName" 
-                    value={formData.lastName}
-                    onChange={handleChange}/>
-                <label htmlFor="email">Email</label>
-                    <input 
-                    id="email" 
-                    type="text"
-                    name="email" 
-                    onChange={handleChange}
-                    value={formData.Email}/>
-                <label htmlFor="phoneNumber">Phone Number</label>
-                    <input 
-                    id="phoneNumber" 
-                    type="number"
-                    name ="phoneNumber" 
-                    onChange={handleChange}
-                    value={formData.phoneNumber}/>
-                <label htmlFor="DOB">Date Of Birth</label>
-                    <input 
-                    id="DOB"
-                    type="date"
-                    name ="DOB"
-                    onChange={handleChange}
-                    value={formData.DOB}/>
-                <label htmlFor="Address">Address(Your Home Address)</label>
-                    <input
-                    id="Address"
-                    type="text"
-                    name ="Address"
-                    onChange={handleChange}
-                    value={formData.Address}/>
-                <button type="submit" className="submit-form-btn">Continue</button>
+                <div  className="lastName-provider-div">
+                    <label htmlFor="lastName-provider">Last Name</label>
+                        <input 
+                        id="lastName-provider" 
+                        type="text"
+                        name ="lastName" 
+                        value={formData.lastName}
+                        onChange={handleChange}/>
+                </div>
+
+                <div className="email-provider-div">
+                    <label htmlFor="email-provider">Email</label>
+                        <input 
+                        id="email-provider" 
+                        type="text"
+                        name="email" 
+                        onChange={handleChange}
+                        value={formData.Email}/>
+                </div>
+
+                <div className="phoneNumber-provider-div">
+                    <label htmlFor="phoneNumber-provider">Phone Number</label>
+                        <input 
+                        id="phoneNumber-provider" 
+                        type="number"
+                        name ="phoneNumber" 
+                        onChange={handleChange}
+                        value={formData.phoneNumber}/>
+                </div>
+
+                <div className="DOB-provider-div">
+                    <label htmlFor="DOB-provider">Date Of Birth</label>
+                        <input 
+                        id="DOB-provider"
+                        type="date"
+                        name ="DOB"
+                        onChange={handleChange}
+                        value={formData.DOB}/>
+                </div>
+
+                <div className="Address-provider-div">
+                    <label htmlFor="Address-provider">Address</label>
+                        <input
+                        id="Address-provider"
+                        type="text"
+                        name ="Address"
+                        onChange={handleChange}
+                        value={formData.Address}/>
+                </div>
+                <button type="submit" className="submit-provider-form-btn">Continue</button>
             </form>
         </div>
     )

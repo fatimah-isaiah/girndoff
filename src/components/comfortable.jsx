@@ -1,6 +1,8 @@
 import { SiGoogleplay } from "react-icons/si";
 import { IoLogoApple } from "react-icons/io5";
 import "/src/styles/component styles/comfortable.css"
+import mockup from "/public/publicAssets/mockup 1.png"
+import ellipse from "/public/publicAssets/Ellipse 9.png"
 
 export default function Comfortable(){
     return(
@@ -32,9 +34,9 @@ export default function Comfortable(){
                 </div>
             </div>
             <div>
-                <img src="src/assets/mockup 1.png"/>
+                <img src={mockup} alt="mockup"/>
             </div>
-            <img className="ellipse-div" src="src/assets/Ellipse 9.png"/>
+            <img className="ellipse-div" src={ellipse} alt="ellipse"/>
         </div>
         <div className="bottom-comfort">
             <div>

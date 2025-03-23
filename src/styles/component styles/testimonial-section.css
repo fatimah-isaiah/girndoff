@@ -65,7 +65,7 @@
   }
   
   .user-part {
-    background-image: url("/src/assets/Rectangle 39.png");
+    background-image: url("/public/publicAssets/Rectangle 39.png");
     height: 80vh;
     width: 50vw;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
   
   /* using a puesdo-element :before  to darken a background */
   .provider-part {
-    background-image: url("/src/assets/Rectangle 40.png");
+    background-image: url("/public/publicAssets/Rectangle 40.png");
     height: 80vh;
     width: 50vw;
     background-repeat: no-repeat;

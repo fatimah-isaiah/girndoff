@@ -3,6 +3,8 @@ import { IoShieldCheckmarkOutline } from "react-icons/io5";
 import { GrDocumentText } from "react-icons/gr";
 import { Link } from "react-router-dom";
 import "/src/styles/component styles/works.css"
+import man1 from "/public/publicAssets/man1 1.png"
+import man2 from "/public/publicAssets/man2 1.png"
 
 export default function Works(){
     const workData = [{
@@ -42,8 +44,8 @@ export default function Works(){
                    <Link to="signup" className="provider-btn">Become a Provider</Link>
                 </div>
                 <div>
-                   <img className="man1" src="src/assets/man1 1.png"  />
-                   <img className="man2" src="src/assets/man2 1.png" />
+                   <img className="man1" src={man1}  alt="man1" />
+                   <img className="man2" src={man2}  alt="man2" />
                 </div>
             </div>
         </div>

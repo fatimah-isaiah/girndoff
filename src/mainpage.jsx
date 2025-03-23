@@ -10,6 +10,9 @@ import Testimonial from "./components/Testimonial-section.jsx"
 import Comfortable from './components/comfortable.jsx';
 import Footer from './components/footer.jsx';
 import Covid from './components/covid-banner.jsx';
+import {useContext} from "react"
+import { LoginDetailsContext } from "./components/context/user-context";
+
 function MainPage() {
   const trends = data.map(function(item){
     return(
@@ -18,11 +21,15 @@ function MainPage() {
     )
 
   })
+
+  const {showHomePage} = useContext(LoginDetailsContext)
   
  return(
      <div className='container'>
       <Covid/>
      <Hero />
+     {showHomePage &&
+     <>
      <div className='third-section'>
             <div className="writings">
                 <h1>Trending Grind near you</h1>
@@ -40,6 +47,7 @@ function MainPage() {
      <Testimonial/>
     <Comfortable/>
     <Footer/>
+    </>}
      </div>
  ) 
 }

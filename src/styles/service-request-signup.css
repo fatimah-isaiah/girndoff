@@ -7,6 +7,11 @@
   .description-header {
     text-align: center;
   }
+  .service-request-radio,
+  .service-rate-section{
+    display: block;
+    margin-right: auto;
+  }
   
   .right-radio {
     display: block;

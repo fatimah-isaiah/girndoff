@@ -5,7 +5,7 @@ import Menu from "./menu/Menu"
 import MenuButton from "./menu/MenuButton"
 import MenuDropDown from "./menu/MenuDropDown"
 import {Link} from "react-router-dom"
-import imageURL from "/src/assets/logo 1.png"
+import imageURL from "/public/publicAssets/logo 1.png"
 import "/src/styles/header.css"
 
 

@@ -3,9 +3,9 @@ import { FaChevronDown } from "react-icons/fa";
 import "/src/styles/request-details-layout.css"
 import { IoSearch } from "react-icons/io5";
 import { useState,useContext } from "react";
-// import imageURL from "/src/assets/profile images/off1.jpeg"
 import { NavLink, Outlet} from "react-router-dom";
 import { LoginDetailsContext } from "../context/user-context";
+import grindOffLogo from "/public/publicAssets/logo 1.png"
 
 
 export default function RequestDetailsLayout(){
@@ -14,6 +14,10 @@ export default function RequestDetailsLayout(){
     const {loginDetail} = useContext(LoginDetailsContext)
    
     const userNavBar = [
+        {
+            title:"Home",
+            path:"/"
+        },
         {
             title:"Create Job",
             path:"."
@@ -34,7 +38,7 @@ export default function RequestDetailsLayout(){
     return(
         <>
         <div className="user-request-header">
-            <img src="/src/assets/logo 1.png" className="logo"/>
+            <img src={grindOffLogo} className="logo"/>
             <div className="user-search-bar">
                <IoSearch />
                <input

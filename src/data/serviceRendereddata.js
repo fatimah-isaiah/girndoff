@@ -8,7 +8,7 @@ export default[
       reviews: 35,
       stars: 4.5,
       category:["pharmacy","supermarket"],
-      profileImg: "/src/assets/Ellipse 25.png",
+      profileImg: "/public/publicAssets/Ellipse 25.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -22,7 +22,7 @@ export default[
       reviews: 50,
       stars: 4.7,
       category:["movers"],
-      profileImg: "/src/assets/trending data/moving services.png",
+      profileImg: "/public/publicAssets/trendingData/moving_services.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -36,7 +36,7 @@ export default[
       reviews: 42,
       stars: 4.6,
       category:["plumbing"],
-      profileImg: "/src/assets/trending data/food  and drink delivery.png",
+      profileImg: "/public/publicAssets/trendingData/food _and_drink_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -50,7 +50,7 @@ export default[
       reviews: 65,
       stars: 4.8,
       category:["cleaning"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/home_and_office_cleaning.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -64,7 +64,7 @@ export default[
       reviews: 80,
       stars: 4.9,
       category:["shopping","groceries"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/home_and_office_cleaning.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -78,7 +78,7 @@ export default[
       reviews: 30,
       stars: 4.4,
       category:["furniture"],
-      profileImg:"/src/assets/trending data/home and office cleaning.png",
+      profileImg:"/public/publicAssets/trendingData/home_and_office_cleaning.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -92,7 +92,7 @@ export default[
       reviews: 55,
       stars: 4.3,
       category:["tech","repair"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -106,7 +106,7 @@ export default[
       reviews: 40,
       stars: 4.1,
       category:["electricians"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -120,7 +120,7 @@ export default[
       reviews: 70,
       stars: 4.9,
       category:["auto","mechanics","repair"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -134,7 +134,7 @@ export default[
       reviews: 75,
       stars: 4.7,
       category:["landscaping"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -148,7 +148,7 @@ export default[
       reviews: 38,
       stars: 4.2,
       category:["pest control","fumigation"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -162,7 +162,7 @@ export default[
       reviews: 48,
       stars: 4.6,
       category:["painting"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -176,7 +176,7 @@ export default[
       reviews: 58,
       stars: 4.8,
       category:["repair"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -190,7 +190,7 @@ export default[
       reviews: 72,
       stars: 4.5,
       category:["movers"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -204,7 +204,7 @@ export default[
       reviews: 60,
       stars: 4.7,
       category:["cleaning"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -218,7 +218,7 @@ export default[
       reviews: 52,
       stars: 4.2,
       category:["capentering","wood"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -232,7 +232,7 @@ export default[
       reviews: 68,
       stars: 4.8,
       category:["food","catetering"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -246,7 +246,7 @@ export default[
       reviews: 85,
       stars: 5.0,
       category:["food","baking"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -260,7 +260,7 @@ export default[
       reviews: 28,
       stars: 4.1,
       category:["tailoring"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 
@@ -274,7 +274,7 @@ export default[
       reviews: 73,
       stars: 4.9,
       category:["cleaning","home"],
-      profileImg: "/src/assets/trending data/home and office cleaning.png",
+      profileImg: "/public/publicAssets/trendingData/grocery_shopping_delivery.png",
       photos:["/src/assets/Ellipse 25.png","/src/assets/trending data/capenter and furniture repair.png","/src/assets/trending data/dry cleaning.png",
         "/src/assets/trending data/food  and drink delivery.png","/src/assets/trending data/virtual and online task.png","/src/assets/trending data/haircut home service.png"
       ] 

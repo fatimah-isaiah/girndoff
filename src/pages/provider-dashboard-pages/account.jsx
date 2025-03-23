@@ -1,4 +1,4 @@
-import imageURL from "/src/assets/profile images/off1.jpeg"
+import imageURL from "/public/publicAssets/profileImages/off1.jpeg"
 import { useState } from "react"
 import { RiPencilFill } from "react-icons/ri";
 import FirstNameModal from "./account-modals/firstnameModal";

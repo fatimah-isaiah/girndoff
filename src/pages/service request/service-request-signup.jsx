@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "/src/styles/service-request-signup.css"
 
 export default function ServiceRequest(){
+    const [submitted, setSubmitted] = useState(false)
     const [formData, setFormData] = useState(
         {
             serviceRequest:"",
@@ -23,8 +24,9 @@ export default function ServiceRequest(){
                 [name]:value,
             }
         }
-         
-        )
+         )
+
+         setSubmitted(true)
     }
 
     
@@ -46,7 +48,8 @@ export default function ServiceRequest(){
             name="serviceRequest"
             value="Right-Now"
             checked={formData.serviceRequest === "Right-Now"}
-            onChange={handleRequestChange}/>
+            onChange={handleRequestChange}
+            required/>
             <label htmlFor="Right-Now">Right Now</label>
             </div>
 
@@ -56,30 +59,37 @@ export default function ServiceRequest(){
             name="serviceRequest"
             value="Later Request"
             checked={formData.serviceRequest === "Later Request"}
-            onChange={handleRequestChange}/>
+            onChange={handleRequestChange}
+            required/>
             <label htmlFor="Later Request">Later Request</label>
            
             </div>
 
-            <label><h3>Service Starting Address</h3></label>
-            <input
-            type="text"
-            id="startingAddress"
-            name="startingAddress"
-            value={formData.startingAddress}
-            onChange={handleRequestChange}/>
-            <button className="startingAddress-btn"><FaLocationDot />
-            Use Current Location</button>
+            <label htmlFor="startingAddress" style={{marginRight:"auto"}}><h3>Service Starting Address</h3></label>
+            <div className= "startingAddress-div">
+                 <input
+                 type="text"
+                 id="startingAddress"
+                 name="startingAddress"
+                 value={formData.startingAddress}
+                 onChange={handleRequestChange}
+                 required/>
+                 <button className="startingAddress-btn"><FaLocationDot />
+                 Use Current Location</button>
+            </div>
 
-            <label><h3>Service Destination Address (Optional)</h3></label>
-            <input
-            type="text"
-            id= "destinationAddress"
-            name="destinationAddress"
-            value={formData. destinationAddress}
-            onChange={handleRequestChange}/>
-            <button className="destinationAddress-btn" ><FaLocationDot />
-            Use Current Location</button>
+            <label htmlFor="destinationAddress"  style={{marginRight:"auto"}}><h3>Service Destination Address (Optional)</h3></label>
+            <div className="destinationAddress-div">
+                 <input
+                 type="text"
+                 id= "destinationAddress"
+                 name="destinationAddress"
+                 value={formData. destinationAddress}
+                 onChange={handleRequestChange}
+                 required/>
+                 <button className="destinationAddress-btn" ><FaLocationDot />
+                 Use Current Location</button>
+            </div>
 
             <div className="service-rate-section">
                 <h3>Service Rate Options</h3>
@@ -92,7 +102,8 @@ export default function ServiceRequest(){
                             name="serviceRate"
                             value={eachRate}
                             checked={formData.serviceRate === eachRate}
-                            onChange={handleRequestChange}/>
+                            onChange={handleRequestChange}
+                            required/>
                             <label htmlFor={eachRate}>{eachRate}</label>
                         </div>
                     )
@@ -127,7 +138,8 @@ export default function ServiceRequest(){
                   name="shortDescription"
                   placeholder="Max length of 30 characters"
                   value={formData.shortDescription} 
-                  onChange={handleRequestChange}/>
+                  onChange={handleRequestChange}
+                  required/>
             </div>
 
             <div>
@@ -140,13 +152,15 @@ export default function ServiceRequest(){
             placeholder="Provide a summary of what you need done for your provider."
             value={formData.longDescription} 
             onChange={handleRequestChange}
+            required
              />
             </div>
 
             <Link 
             to="findrates" 
             className="serviceRequest-btn"
-            state={{categoryFilter:formData.serviceCategory}}>Continue</Link>
+            state={{categoryFilter:formData.serviceCategory}}
+            disable={submitted}>Continue</Link>
         </form>
     </div>
    )

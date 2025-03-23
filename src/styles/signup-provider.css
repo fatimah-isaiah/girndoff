@@ -1,0 +1,32 @@
+
+
+#firstName-provider,
+#lastName-provider,
+#email-provider,
+#phoneNumber-provider,
+#DOB-provider,
+#Address-provider{
+    width: 400px;   
+}
+
+.firstName-provider-div,
+.lastName-provider-div,
+.email-provider-div,
+.phoneNumber-provider-div,
+.DOB-provider-div,
+.Address-provider-div{
+    margin: 10px 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.submit-provider-form-btn{
+    margin: 10px 0px;
+    background-color: #14a000;
+    padding: 10px;
+    border: none;
+    width: 300px;
+    color: white;
+    border-radius: 4px;
+}
