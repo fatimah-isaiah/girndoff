@@ -106,7 +106,7 @@ export default function RequestDetails(){
                 <div className="bottom-user-details-section">
                 <div className="bottom-left-user-details-section">
                     <div className="provider-details">
-                        <img src={imageUrl} />
+                        <img src={imageUrl} className="provider-img"/>
                         <div>
                             <p><FaCheckCircle style={{color:"#14A800",marginRight:"10px"}} />80 completed tasks</p>
                             <p><FaHeart style={{color:"FFD703",marginRight:"10px"}}  />100% positive reviews<BsFillExclamationCircleFill style={{color:"#14A800",marginLeft:"5px" }}  /></p>

@@ -68,3 +68,73 @@
   .check {
     color: #14A800;
   }
+
+  @media screen and (max-width: 768px) {
+    .top-section-with-title {
+      margin-top: 0.6em;
+    }
+    
+    .how-it-works-top-section {
+      margin: 0px 1.7em 0px 1.7em;
+      gap: 1.2em;
+    }
+    
+    .each-works {
+      width: 25vw;
+    }
+    
+    .icon-each {
+      width: 2.6rem;
+      height: 2.6rem;
+      font-size: 0.75rem;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+    
+    .icon-each .h1 {
+      margin: 0;
+      padding: 0;
+    }
+    .each-works p{
+      font-size: 0.8rem;
+    }
+    
+  .bottom-works-section {
+      background-image: url("./assets/Rectangle 38.png");
+      height: 30vh;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      width: 100vw;
+    }
+    
+    .man1 {
+      position: absolute;
+      right: 0.8rem;
+      bottom: 0;
+      width: 40vw;
+    }
+    
+    .man2 {
+      position: absolute;
+      right: 3.5rem;
+      bottom: 0;
+      width: 40vw;
+    }
+
+    .bottom-words {
+      width: 10rem;
+      margin-left: 6em;
+      font-size: 0.5rem;
+    }
+    
+    .green-money,
+    .check {
+      color: #14A800;
+    }
+  
+  }

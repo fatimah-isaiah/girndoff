@@ -27,7 +27,7 @@ export default function Works(){
             <div className="how-it-works-top-section">
                 {workData.map((item,index) =>{
                     return(
-                        <div className="each-works" key={index}>
+                    <div className="each-works" key={index}>
                         <div className="icon-each">
                             <h1 className="h1">{item.icon}</h1>
                         </div>
@@ -43,7 +43,7 @@ export default function Works(){
                    <h1>Earn up to <span className="green-money"> N200,000 </span> monthly on Grindoff</h1>
                    <Link to="signup" className="provider-btn">Become a Provider</Link>
                 </div>
-                <div>
+                <div className="working-men">
                    <img className="man1" src={man1}  alt="man1" />
                    <img className="man2" src={man2}  alt="man2" />
                 </div>

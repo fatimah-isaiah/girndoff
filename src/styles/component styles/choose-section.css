@@ -33,5 +33,37 @@
     border-radius: 0.65rem;
     width: 25rem;
   }
+
+  /* media query for a smaller screen */
+@media screen and (max-width: 768px) {
+  .choose-section {
+    height: 50vh;
+  }
+  
+  .top-right-choose {
+    max-width: 15.5rem;
+    margin: 1.5em 5em 0em auto;
+    padding: 1em;
+    text-align: right;
+    font-size: 0.5rem;
+  }
+  
+  .green-block-section {
+    bottom: 2em;
+    margin-left: 4em;
+    gap: 0.6rem;
+  }
+  
+  .each-block {
+    background-color: #14A800;
+    padding: 0.45em;
+    gap: 0.3rem;
+    border-radius: 0.3rem;
+    width: 25vw;
+    font-size: 0.5rem;
+  }
+  
+  
+}
   
   

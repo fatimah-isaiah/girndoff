@@ -15,7 +15,7 @@ export default function Covid(){
     return(
         <div ref= {totalCovidBannerRef} className="total-covid-banner">
             <div className="covid-banner">
-                <p>See our safety standards for COVID-19</p>
+                <p className="safety">See our safety standards for COVID-19</p>
                 <button className="learn-more-btn">Learn More</button>
             </div>
             <div>

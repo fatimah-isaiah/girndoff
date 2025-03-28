@@ -34,7 +34,7 @@ export default function Comfortable(){
                 </div>
             </div>
             <div>
-                <img src={mockup} alt="mockup"/>
+                <img src={mockup} alt="mockup" className="mockup-img"/>
             </div>
             <img className="ellipse-div" src={ellipse} alt="ellipse"/>
         </div>
@@ -59,7 +59,7 @@ export default function Comfortable(){
                     <li>FAQs</li>
                 </ul>
             </div>
-            <div>
+            <div className="discover-div">
                 <h1>Discover Our App</h1>
                 <p>Tackle your to-do list wherever you are with our Mobile App</p>
                 <div>

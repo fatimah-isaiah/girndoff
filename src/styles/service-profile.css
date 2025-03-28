@@ -113,3 +113,132 @@
     display: block;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .service-profile-total {
+      display: flex;
+      flex-direction: column;
+      padding: 0em 1em 0.5em 1em;
+      margin: 0.9em 1em;
+      background-color: white;
+      align-items: center;
+      box-shadow: 0px 0px 3px 1px #D8D8D8;
+      width: 100vw;
+      font-size: 0.8rem;
+    }
+    
+    .selected-top {
+      border: 1px solid #D8D8D8;
+      display: flex;
+      gap: 0.3em;
+      padding: 0.3em;
+      border-radius: 0.2em;
+      font-size: 0.8rem;
+    }
+    
+    .each-selected-service {
+      padding: 0.3em;
+      background-color: #D8D8D8;
+      font-size: 0.5rem;
+    }
+    
+    
+    .suggested-services {
+      display: flex;
+      margin-top: 1em;
+      font-size: 0.8rem;
+    }
+    
+    .form-grid {
+      max-width: 60vw;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.3em;
+      font-size: 0.5rem;
+    }
+    .each-suggested-service{
+      font-size: 0.8rem;
+    }
+    .lowerForm {
+      width: 60vw;
+      margin: 0em 1em;
+    }
+    
+    .textArea {
+      display: block;
+      width: 60vw;
+      height: 10vh;
+      border-radius: 0.3em;
+      text-align: start;
+      font-size: 0.73em;
+      border: 1px solid #D8D8D8;
+      background-color: #E5E5E526;
+      resize: none;
+      padding: 0.3em;
+    }
+    .textarea-label{
+      font-size: 1rem;
+    }
+    
+    .radio-div {
+      margin-bottom: 0.6em;
+      font-size: 0.8rem;
+    }
+    
+    #completion {
+      display: block;
+      width: 60vw;
+      padding: 1em;
+      border: 1px solid #D8D8D8;
+      background-color: #E5E5E526;
+      border-radius: 0.3rem;
+      margin-bottom: 1em;
+    }
+    
+    .current-location-div {
+      display: flex;
+    }
+    
+    .current-location-btn {
+      padding: 0.45em;
+      background-color: #14A800;
+      border: none;
+      border-radius: 0.3em;
+      color: white;
+      width: 30vw;
+      font-size: 0.8rem;
+    }
+    
+    .label-current-location {
+      margin-top: 0.55em;
+    }
+    
+    #insertLocation {
+      padding: 0.45em;
+      border-radius: 0.3em;
+      width: 50vw;
+      margin-right: 0.3em;
+      border: 1px solid #D8D8D8;
+      background-color: #E5E5E526;
+    }
+    
+    .service-profile-continue {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.55em;
+      padding: 0.55em;
+      width: 20vw;
+      border: none;
+      border-radius: 0.3em;
+      color: white;
+      background-color: #14A800;
+    }
+    
+    .selected-image {
+      margin-bottom: 0.99em;
+      display: block;
+    }
+    
+  
+
+  }

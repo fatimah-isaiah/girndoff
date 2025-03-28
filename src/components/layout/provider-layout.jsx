@@ -84,7 +84,7 @@ export default function ProviderLayout() {
             </div>
 
             {/* Outlet for rendering the content of each step */}
-            <div style={{ backgroundColor: "#F9FAFB" }}>
+            <div style={{ backgroundColor: "#F9FAFB" }} className="provider-outlet">
                 <Outlet />
             </div>
         </div>

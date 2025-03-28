@@ -30,3 +30,42 @@
     color: white;
     border-radius: 4px;
 }
+
+@media screen and (max-width: 768px) {
+   .total-provider-div{
+    width: 100vw;
+    box-sizing: border-box;
+   } 
+
+#firstName-provider,
+#lastName-provider,
+#email-provider,
+#phoneNumber-provider,
+#DOB-provider,
+#Address-provider{
+    width: 40vw;   
+}
+
+.firstName-provider-div,
+.lastName-provider-div,
+.email-provider-div,
+.phoneNumber-provider-div,
+.DOB-provider-div,
+.Address-provider-div{
+    margin: 0.3em 0em;
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    justify-content: center;
+}
+.submit-provider-form-btn{
+    margin: 0.3em 0em;
+    background-color: #14a000;
+    padding: 0.3em;
+    border: none;
+    width: 40vw;
+    color: white;
+    border-radius: 0.2rem;
+}
+
+}

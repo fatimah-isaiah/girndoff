@@ -32,8 +32,8 @@ function MainPage() {
      <>
      <div className='third-section'>
             <div className="writings">
-                <h1>Trending Grind near you</h1>
-                <p>Choose a service you need, eanter a few details, and get matched with vetted qualified and available Grinds</p>
+                <h1 >Trending Grind near you</h1>
+                <p >Choose a service you need, eanter a few details, and get matched with vetted qualified and available Grinds</p>
             </div>
 
          <section className="service-grid">

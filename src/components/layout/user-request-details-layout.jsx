@@ -67,7 +67,7 @@ export default function RequestDetailsLayout(){
             </div>
             <div className="user-details">
                 <img src={loginDetail.image} className="user-profile-image"/>
-                <p>{loginDetail.firstName} {loginDetail.lastName}</p>
+                <p className="user-profile-name">{loginDetail.firstName} {loginDetail.lastName}</p>
                 <FaChevronDown />
                
             </div>

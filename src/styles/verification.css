@@ -105,3 +105,114 @@
     width: 500px;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .profile-upload-container {
+      width: 100vw;
+      max-width: 80vw;
+      margin: 0.6em auto;
+      padding: 0.6em;
+      border: 1px solid #e0e0e0;
+      box-shadow: 0px 0px 3px 1px #D8D8D8;
+      background-color: white;
+    }
+    
+    .upload-section {
+      margin-bottom: 1em;
+    }
+    
+    h4 {
+      font-size: 0.6em;
+      margin-bottom: 0.3em;
+    }
+    
+    .button-group {
+      display: flex;
+      gap: 0.3em;
+    }
+    
+    .camera-btn,
+    .upload-btn {
+      flex: 1;
+      padding: 0.3em 0.5em;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      font-size: 0.5rem;
+    }
+    
+    .camera-btn {
+      background-color: #e8ffe8;
+      color: #2a9d2a;
+    }
+    
+    .upload-btn {
+      background-color: #f4f4f4;
+      color: #666;
+    }
+    
+    .id-selection {
+      margin-bottom: 0.9rem;
+    }
+    
+    .id-type-input {
+      margin-bottom: 0.3rem;
+    }
+    
+    .id-type-input input {
+      width: 100%;
+      padding: 0.5em;
+      border-radius: 0.3rem;
+      border: 1px solid #ccc;
+      font-size: 0.5rem;
+      outline: none;
+    }
+    
+    .id-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+    }
+    
+    .id-btn {
+      padding: 0.3em 0.5rem;
+      border: 1px solid #2a9d2a;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      background-color: white;
+      color: #2a9d2a;
+      transition: background-color 0.3s ease;
+    }
+    
+    .id-btn.active {
+      background-color: #2a9d2a;
+      color: white;
+    }
+    
+    .continue-button {
+      text-align: center;
+      margin-top: 0.6em;
+    }
+    
+    .continue-btn {
+      background-color: #2a9d2a;
+      color: white;
+      padding: 0.3rem 0.6rem;
+      border: none;
+      border-radius: 0.3rem;
+      cursor: pointer;
+      font-size: 0.5rem;
+      width: 100%;
+      max-width: 30vw;
+    }
+    
+    .continue-btn:hover {
+      background-color: #248924;
+    }
+    .captured-image {
+      margin-top: 0.3rem;
+      width: 50vw;
+    }
+    
+
+  }

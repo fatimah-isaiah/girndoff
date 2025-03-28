@@ -32,7 +32,7 @@ useEffect(() => {
             <h4 className="testimonial-qoute">{`"${item.quote}"`}</h4>
             <div className="each-testimonial-bottom">
                 <img src={item.avatar} className="avatar"/>
-                <div>
+                <div className="name-role-div">
                     <h4>{item.name}</h4>
                     <p>{item.role}</p>
                 </div>

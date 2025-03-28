@@ -125,10 +125,10 @@ export default function ChooseTime() {
                     {showTime && (
                         <div>
                             <h3>Request for:</h3>
-                            <h1>{chooseTimeData.month} {chooseTimeData.day}, {chooseTimeData.time}</h1>
+                            <h1 className="requested-time">{chooseTimeData.month} {chooseTimeData.day}, {chooseTimeData.time}</h1>
                             <Link to="confirmDetails" className="choose-time-button">Select & continue</Link>
                             <div className="confirm-time">
-                                <img width={100} src="/src/assets/To Do List.png" />
+                                <img width={100} src="/publicAssets/To Do List.png" />
                                 <p className="confirm-time-words">Next, confirm your details to
                                     get connected with your Provide.</p>
                             </div>

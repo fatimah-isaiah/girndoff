@@ -12,7 +12,7 @@ export default function SignUp(){
         })
     }
     return(
-        <div>
+        <div className="total-provider-div">
             <form className="signup-form">
                 <div className="firstName-provider-div">
                     <label htmlFor="firstName-provider">First Name</label>

@@ -73,7 +73,7 @@
   
   .search-icon {
     position: absolute;
-    top: 8px;
+    top: 0.5em;
     left: 0;
     color: #E5E5E5;
     padding-left: 10px;
@@ -91,4 +91,116 @@
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+  }
+
+/* media query for a smaller screen */
+  @media screen and (max-width: 768px) {
+    body {
+      width: 100%;
+    }
+    .hero-section {
+      padding: 0.5em;
+      display: flex;
+      margin: none;
+    }
+    
+    .discover {
+      width: 10vw;
+      font-size: 1.3rem;
+      margin-bottom: 0.6em;
+    }
+    .fastest-words{
+      font-size: 0.8rem;
+    }
+    .popular-span {
+      border: 2px solid #14A80052;
+      padding: 0.3rem;
+      margin: 0.1rem;
+      box-sizing: border-box;
+      font-size: 0.5rem;
+      white-space: nowrap;
+    }
+    .popular-word{
+      font-size: 0.5rem;
+    }
+    .popular-link {
+      color: #14A800;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 0.5rem;
+    }
+    
+    .hero-image {
+      position: relative;
+      width: 50vw;
+      border-top-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+      box-shadow: 20px -20px #14A80052;
+      box-sizing: border-box;
+      margin: 25px 25px 0px 0px;
+    
+    }
+    .word-section {
+      width: 40vw;
+      align-self: center;
+    }
+    
+    .popular-section {
+      display: flex;
+      align-items: baseline;
+    }
+    
+    .search-input {
+      margin: 0.4em 0.25em;
+      display: flex;
+    }
+    
+    .input-bar {
+      text-indent: 10px;
+      padding: 2em;
+      width: 20vw;
+      border-radius: 2px 0px 0px 2px;
+      font-size: 0.3rem;
+      border: 1px solid #E5E5E5;
+      color: #E5E5E5;
+    }
+    
+   .search-bar {
+      padding: 0em;
+      border-radius: 0em 0.1em 0.1em 0em;
+      width: 6vw;
+      font-size: 0.3rem;
+      text-align: center;
+    } 
+    
+    .position-search-icon {
+      position: relative;
+    
+    }
+    
+    .search-icon {
+      position: absolute;
+      top: 0.5em;
+      left: 0;
+      color: #E5E5E5;
+      padding-left: 5px;
+      font-size: 0.8rem;
+    }
+    
+    .downward-arrow {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: none;
+      background-color: white;
+      box-shadow: 0px 0px 2px 5px whitesmoke;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+    }
+  
+  
+  
+
   }

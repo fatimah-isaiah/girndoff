@@ -137,7 +137,7 @@ export default function ServiceProfile() {
                     onChange={handleChange}
                     checked={formData[item]}
                   />
-                  <label htmlFor={item}>{item}</label>
+                  <label htmlFor={item} className="each-suggested-service">{item}</label>
               </div>
             </form>
           </div>
@@ -145,7 +145,7 @@ export default function ServiceProfile() {
       </div>
     </div>
     <div className="lowerForm">
-            <label htmlFor="textArea">Describe the services you want to provide</label>
+            <label htmlFor="textArea" className="textarea-label">Describe the services you want to provide</label>
             <textarea
             id="textArea"
             className="textArea"

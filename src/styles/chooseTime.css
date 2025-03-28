@@ -67,4 +67,84 @@
   .choosetime-left-words{
     width: 430px;
   }
+
+
+  @media screen and (max-width: 768px) {
+    .total-chooseTime{
+      box-shadow: 4px 4px 6px 0px #0000000D;
+      margin: 0em;
+      padding: 0em 0.6em;
+      background-color: white;
+    }
+    .choose-header{
+      text-align: center;
+      font-size: 1rem;
+    }
+    .choose-section-total-bottom{
+      display: flex;
+      justify-content: center;
+      gap: 0.3em;
+    }
+    .choosetime-image-div{
+      display: flex;
+      gap: 0.3em;
+      align-items: center;
+      margin-bottom: 0.6em;
+    }
+    .choosetimeImage{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+    }
+    .chooseTime-date-section{
+      display: flex;
+      gap: 0.3em;
+      margin-bottom: 0.6em;
+    }
+    .choosetime-month,
+    .choosetime-year{
+      padding: 0.3em;
+      width: 30vw;
+      border: 1px solid #00000099;
+      border-radius: 0.3em;
+    }
+    .choosetime-day{
+      width: 15vw;
+      padding: 0.3em;
+      border: 1px solid #00000099;
+      border-radius: 0.3em;
+    }
+    .choosetime-time{
+      width: 80vw;
+      padding: 0.4em;
+      border: 1px solid #00000099;
+      border-radius: 0.3em;
+    }
+    .right-choosetime-section{
+      background: #E5E5E536;
+      padding: 0.6em;
+    }
+    .choose-time-button{
+      padding: 0.6em;
+      border-radius: 0.3em;
+      border: none;
+      background-color: #14A800;
+      color: white;
+    }
+    .confirm-time{
+      display: flex;
+    }
+    .confirm-time-words{
+      width: 40vw;
+      font-size: 0.8rem;
+    }
+    .choosetime-left-words{
+      width: 50vw;
+      font-size: 0.5em;
+    }
+    .requested-time{
+      font-size: 0.8rem;
+    }
+    
+  }
   

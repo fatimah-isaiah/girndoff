@@ -78,3 +78,95 @@
     color: #14A800;
     text-decoration: none;
   }
+
+  
+  @media screen and (max-width: 768px) {
+    .total-login-page {
+      display: flex;
+      gap: 0.8rem;
+      height: 100vh;
+    }
+    
+    .left-side-login {
+      background-image: url("/public/publicAssets/Rectangle 1116.png");
+      width: 40vw;
+      background-repeat: none;
+      background-size: cover;
+      position: relative;
+    }
+    
+    .right-side-login {
+      width: 50vw;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    
+    }
+    
+    .get-job-div {
+      position: absolute;
+      bottom: 0;
+      background-image: linear-gradient(transparent, black);
+      width: 40vw;
+      height: 20vh;
+    }
+    
+    .get-job {
+      width: 200px;
+      padding: 20px;
+      color: white;
+      font-size: 0.5rem;
+    }
+    
+    .login-logo-div {
+      margin: 25px 40px 0px auto;
+    }
+    .login-logo{
+      width: 30vw;
+    }
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+      padding: 0.6rem 3rem;
+    
+    }
+    
+    .login-form input {
+      width: 200px;
+      padding: 0.4rem;
+      border: none;
+      background-color: #F7F7F7;
+      border-radius: 0.3rem;
+    }
+    
+    .login-form label {
+      margin-top: 0.6rem;
+    }
+    
+    .submit-login-btn {
+      padding: 10px;
+      border: none;
+      background-color: #14A800;
+      border-radius: 6px;
+      color: white;
+      width: 200px;
+    }
+    
+    .forget-link {
+      color: #14A800;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    .have-account {
+      margin-top: 40px;
+      font-size: 0.8rem;
+    }
+    
+    .login-signup-link {
+      color: #14A800;
+      text-decoration: none;
+    }
+  
+    
+  }

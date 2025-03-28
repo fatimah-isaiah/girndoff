@@ -73,3 +73,82 @@
     padding: 10px;
   
   }
+
+  @media screen and (max-width: 768px) {
+    .modal-overlay {
+      border: 1px solid #00000017;
+      box-shadow: 0px 4px 4px 0px #00000026;
+      background-color: white;
+      position: absolute;
+      margin-top: 1rem;
+      top: 50;
+      bottom: 50;
+      right: 50;
+      left: 50;
+      width: 50vh;
+      height: 50vh;
+      box-shadow: 0px 4px 30px 0px #00000014;
+      padding: 1.9em;
+      border-radius: 0.3em;
+    }
+    
+    .modal-content {
+      display: flex;
+      position: relative;
+      gap: 0.6em;
+    
+    }
+    
+    .close-modal-btn {
+      position: absolute;
+      right: 0;
+      top: 0;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+    }
+    
+    .Rate-per-Hour {
+      color: #14A800;
+      font-weight: 600;
+      font-size: 0.6rem;
+    }
+    
+    .elite-tasker {
+      color: #00000040;
+    }
+    
+    select {
+      background: url("data:image/svg+xml,<svg height='10px' width='10px' viewBox='0 0 16 16' fill='%23000000' xmlns='http://www.w3.org/2000/svg'><path d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/></svg>") no-repeat;
+      background-position: calc(100% - 0.75rem) center !important;
+      -moz-appearance: none !important;
+      -webkit-appearance: none !important;
+      appearance: none !important;
+      padding-right: 2rem !important;
+    }
+    
+    .scrollable-modal-image {
+      width: 20vw;
+      border-radius: 0.3em;
+    }
+    
+    .medical-services-div,
+    .passion-div,
+    .reviews-div {
+      font-size: 0.35rem;
+    }
+    
+    .scrollabe-modal-section {
+      display: flex;
+      align-items: center;
+      gap: 0.3em;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      border-top: 1px solid #C4C4C4;
+      border-bottom: 1px solid #C4C4C4;
+      padding: 0.3em;
+    
+    }
+  
+  }

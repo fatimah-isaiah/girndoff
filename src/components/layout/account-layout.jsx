@@ -21,7 +21,7 @@ export default function AccountLayout(){
     }]
 
 return(
-    <div style={{marginLeft:"30px"}}>
+    <div style={{marginLeft:"30px"}} className="total-account-media">
         <div className="total-account-header">
             <ul className="account-list">
                 {layout.map((item,index)=>{

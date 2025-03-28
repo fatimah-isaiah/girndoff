@@ -102,3 +102,127 @@
     margin-top: 10px;
   }
   
+  @media screen and (max-width: 768px) {
+    .total-comfortable-section {
+      margin-top: 0px;
+      height: 33vh;
+    }
+    
+    .ellipse-div {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+      width: 200px;
+    }
+    .mockup-img{
+      width: 40vw;
+      margin-bottom: 0px;
+    }
+    .comfortable-left-section {
+      margin: auto;
+      width: 50vw;
+    }
+    
+    .comfortable-left-section h1 {
+      width: 200px;
+      font-family: Inter;
+      font-size: 0.8rem;
+      font-weight: 300;
+      line-height: 10px;
+      letter-spacing: -0.2888889014720917px;
+      text-align: left;
+    }
+    
+    .minute {
+      width: 180px;
+      font-weight: 200px;
+      line-height: 10px;
+      font-size: 0.7rem;
+      margin: 1em 0em;
+    }
+    
+    .minute span {
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 300;
+      line-height: 24.2px;
+      letter-spacing: -0.2888889014720917px;
+      text-align: left;
+    }
+    
+    .download {
+      width: 225px;
+      font-family: Inter;
+      font-size: 1rem;
+      font-weight: 200;
+      line-height: 18px;
+      letter-spacing: -0.2888889014720917px;
+      text-align: left;
+    
+    }
+    
+    .apple-store-btn,
+    .google-play-btn,
+    .google-play-btn-bottom,
+    .apple-store-btn-bottom {
+      border: 0.4px solid #14A80052;
+      padding: 0.3rem;
+      background-color: white;
+      border-radius: 0.32rem;
+      margin-right: 0.4rem;
+      font-size: 0.3rem;
+    }
+
+    .apple-store-btn h4,
+    .google-play-btn h4,
+    .google-play-btn-bottom h4,
+    .apple-store-btn-bottom h4 {
+      font-size: 0.5rem;
+    }
+    
+    .google-play-btn-bottom,
+    .apple-store-btn-bottom {
+      border: none;
+      background-color: black;
+      color: white;
+    }
+    
+    .download-icon {
+      font-size: 0.6rem;
+    }
+    
+    .arrangement-div,
+    .yup {
+      display: flex;
+      align-items: center;
+    }
+    
+    .get-it {
+      margin-bottom: 0px;
+    }
+    
+    .button-words {
+      margin-top: 0;
+    }
+    
+    .company-list,
+    .discover-list {
+      list-style-type: none;
+      font-size: 0.5rem;
+    }
+    
+    .bottom-comfort {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 0.15rem;
+      gap: 0.2rem;
+      align-items: center;
+    }
+    .discover-div h1{
+      font-size: 0.8rem;
+    }
+    .discover-div p{
+      font-size: 0.5rem;
+    }
+  }

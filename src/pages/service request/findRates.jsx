@@ -72,7 +72,7 @@ export default function FindRates() {
                         <IoShieldCheckmark className="sheildcheckmark" />
                         <p className="sheild-words">Always have peace of mind. All Taskers undergo ID and background checks. <span className="learn-more-green">Learn More</span></p>
                     </div>
-                    <form>
+                    <form className="findrates-form">
                         <div className="task-date">
                             <h2>Task Date</h2>
                             <div className="right-now-radio"

@@ -134,3 +134,144 @@
     padding: 0.625em 1.25em;
     border-radius: 0.625em;
   }
+
+  @media screen and (max-width: 768px) {
+    .each-testimonial {
+      width: 30vw;
+      height: 40vh;
+      border: 2px solid #D2D2D2;
+      padding: 0.6em;
+      border-radius: 0.3rem;
+      box-sizing: border-box;
+    }
+    
+    .each-testimonial-bottom {
+      display: flex;
+      align-items: center;
+      font-size: 0.4em;
+    }
+    
+    .avatar {
+      height: 2rem;
+      width: 2rem;
+      margin-right: 0.3em;
+      border-radius: 50%;
+    }
+    
+    .testimonial-qoute {
+      color: #767676;
+      font-size: 0.6em;
+    }
+    .name-role-div h4{
+      font-size: 0.5rem;
+    }
+    
+    .scrollable-testimonial-div {
+      display: flex;
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      gap: 10px;
+    }
+    
+    .relative-part {
+      position: relative;
+      padding: 1.25rem 0px 3.125rem 0px;
+      background: #E5E5E536;
+    
+    }
+    
+    .position-left-btn {
+      position: absolute;
+      left: 5em;
+      bottom: 15em;
+    }
+    
+    .position-right-btn {
+      position: absolute;
+      right: 5em;
+      bottom: 15em;
+    }
+    
+    .testimonial-heading {
+      text-align: center;
+      font-size: 1rem;
+    }
+    
+    .provider-user-section {
+      display: flex;
+      align-items: center;
+      font-size: 0.5rem;
+    }
+    
+    .user-part {
+      background-image: url("/public/publicAssets/Rectangle 39.png");
+      height: 60vh;
+      width: 50vw;
+    }
+    
+    .user-part:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #00000099;
+    }
+    
+    .ready-heading {
+      text-align: center;
+      font-size: 1rem;
+    }
+    
+    /* using a puesdo-element :before  to darken a background */
+    .provider-part {
+      background-image: url("/public/publicAssets/Rectangle 40.png");
+      height: 60vh;
+      width: 50vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .provider-part:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background: #00000099;
+      z-index: 1;
+    }
+    
+    .provider-part .provider-part-text,
+    .user-part .user-part-text {
+      position: relative;
+      z-index: 2;
+      color: white;
+      font-size: 0.75em;
+      text-align: center;
+      width: 50vw;
+    }
+    .provider-part-text h4,
+    .user-part-text h4{
+        font-size: 0.8rem;
+    }
+    .user-part button,
+    .provider-part button {
+      border: 2px solid #FFFFFF;
+      background-color: transparent;
+      color: white;
+      padding: 0.3em 0.6em;
+      border-radius: 0.3em;
+      font-size: 0.5rem;
+    }
+  
+  }

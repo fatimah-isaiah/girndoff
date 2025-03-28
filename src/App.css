@@ -90,4 +90,86 @@ body {
   background-color: #FFFFFF;
 }
 
+/* media query for a smaller screen */
+@media screen and (max-width: 768px) {
+  /* trend section */
+.third-section{
+  width: 100vw;
+  box-sizing: border-box;
+}
+.each-service {
+  margin: 0.3rem;
+  align-items: center;
+  padding: 0.3em;
+  box-shadow: 0px 0px 7px 0px #00000033;
+  border-radius: 7px;
+}
+.each-service-image{
+  width: 20vw;
+}
+.title-section {
+  padding-top: 0.3em;
+  font-size: 0.5rem;
+}
 
+.service-grid {
+  width: 100vw;
+  gap: 0.25em;
+  box-sizing: border-box;
+}
+
+.service-point {
+  display: flex;
+}
+
+.service-arrow-btn {
+  cursor: pointer;
+}
+
+.signin-link {
+  text-decoration: none;
+  color: black;
+  font-size: 0.8rem;
+}
+
+.menu {
+  position: relative;
+  z-index: 0;
+}
+
+.serviceDropdown {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  position: absolute;
+  z-index: 1;
+  right: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 2px #D8D8D8;
+}
+
+.writings {
+  width: 100vw;
+}
+
+.writings h1 {
+  font-size: 1em;
+}
+
+.writings p {
+  font-size: 0.3em;
+}
+
+.view-all-btn {
+  margin-top: 0.8rem;
+  color: #14A800;
+  border: 1px solid #14A800;
+  padding: 0.3rem 0.8em;
+  border-radius: 0.25em;
+  background-color: #FFFFFF;
+}
+}
